@@ -1,11 +1,12 @@
 
-# A Programming Assistant apps using prompt chaining wrokflow
-A Programming Assistant apps using prompt chaining wrokflow is created inside Agents/programmingAssistant.py
+# A Chatbot assistant using Langraph routing and orchetration wrokflow
+A Chatbot assistant using Langraph routing and orchetration wrokflow
+is created in Agents/agentRoutinggOrchestration.py
 
 
 ### How to run 
 
-uv run programmingAssistant.py (for .py file)
+uv run agentRoutinggOrchestration.py (for .py file)
 
 run all cells in jupyter notebook (for .ipynb file)
 
@@ -15,6 +16,8 @@ run all cells in jupyter notebook (for .ipynb file)
 Resource Links:
 - [Complete youtube playlist](https://www.youtube.com/playlist?list=PLfpB0rPkNb_8)
 - [Langgraph workflows](https://docs.langchain.com/oss/python/langgraph/workflows-agents)
+- [arxivLoader](https://reference.langchain.com/python/langchain-community/document_loaders/arxiv/ArxivLoader)
+- [arxivAPI](https://info.arxiv.org/help/api/basics.html)
 - [Langgraph memory](https://docs.langchain.com/oss/python/langgraph/add-memory#manage-checkpoints)
 - [Langgraph docs](https://docs.langchain.com/oss/python/langgraph/overview)
 - [Langchain's Pre-build Middlware](https://docs.langchain.com/oss/python/langchain/middleware/built-in)
