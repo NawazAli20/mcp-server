@@ -10,8 +10,8 @@ What is covered:
 - Semantic Search 
 - Retriever
 - Tool creation using Retriever 
-- Tool bindin with LLM 
-- Tool binding with Langhcain Agent 
+- Tool binding with LLM 
+- Tool binding with Langhchain Agent 
 
 
 
