@@ -1,12 +1,23 @@
 
-# A Chatbot assistant using Langraph routing and orchetration wrokflow
-A Chatbot assistant using Langraph routing and orchetration wrokflow
-is created in Agents/agentRoutinggOrchestration.py
+# RAG (Reterival Augmented Generation) Fundamentals
+RAG fundamentals is developed in Agents/RAGFundamentals.py 
+
+What is covered: 
+- Document collections
+- Document splitting
+- Embeddings 
+- VectorstoreDB
+- Semantic Search 
+- Retriever
+- Tool creation using Retriever 
+- Tool bindin with LLM 
+- Tool binding with Langhcain Agent 
+
 
 
 ### How to run 
 
-uv run agentRoutinggOrchestration.py (for .py file)
+uv run RAGFundamentals.py .py (for .py file)
 
 run all cells in jupyter notebook (for .ipynb file)
 
@@ -15,6 +26,7 @@ run all cells in jupyter notebook (for .ipynb file)
 
 Resource Links:
 - [Complete youtube playlist](https://www.youtube.com/playlist?list=PLfpB0rPkNb_8)
+- [RAG](https://docs.langchain.com/oss/python/deepagents/rag)
 - [Langgraph workflows](https://docs.langchain.com/oss/python/langgraph/workflows-agents)
 - [arxivLoader](https://reference.langchain.com/python/langchain-community/document_loaders/arxiv/ArxivLoader)
 - [arxivAPI](https://info.arxiv.org/help/api/basics.html)
