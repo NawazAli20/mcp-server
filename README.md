@@ -1,31 +1,35 @@
 
-# RAG (Reterival Augmented Generation) Fundamentals
-RAG fundamentals is developed in Agents/RAGFundamentals.py 
+# Create a Lanchain Agent with MCP tools 
+A Langchainagent has been created in Agents/MCPAgent.ipynb file 
 
-What is covered: 
-- Document collections
-- Document splitting
-- Embeddings 
-- VectorstoreDB
-- Semantic Search 
-- Retriever
-- Tool creation using Retriever 
-- Tool binding with LLM 
-- Tool binding with Langhchain Agent 
+Through your AI agent, integrated with MCP tools, you can: 
 
+- Control you file System
+- Get real-time weather 
+- Get current news 
 
 
 ### How to run 
 
-uv run RAGFundamentals.py .py (for .py file)
+uv run MCPAgent.py .py (for .py file)
 
 run all cells in jupyter notebook (for .ipynb file)
 
 
 # Repo and Dependencies Installations commands 
 
+- Instal [nodeJS](https://nodejs.org/en/download) 
+- Issue: uv add langchain-mcp-adapters
+
+#Checking for Node and npx (in the terminal): 
+node -v 
+npx -v
+
 Resource Links:
 - [Complete youtube playlist](https://www.youtube.com/playlist?list=PLfpB0rPkNb_8)
+- [MCP:](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro)
+- [Official MCP Registry:](https://registry.modelcontextprotocol.io/)
+- [MCP github:](https://github.com/modelcontextprotocol)
 - [RAG](https://docs.langchain.com/oss/python/deepagents/rag)
 - [Langgraph workflows](https://docs.langchain.com/oss/python/langgraph/workflows-agents)
 - [arxivLoader](https://reference.langchain.com/python/langchain-community/document_loaders/arxiv/ArxivLoader)
