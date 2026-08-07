@@ -1,17 +1,21 @@
 
-# Create a Lanchain Agent with MCP tools 
-A Langchainagent has been created in Agents/MCPAgent.ipynb file 
+# Create a Langchain Agent with MCP-MongoDB tools for accessing MongoDB database using natural language 
+A Langchainagent has been created in Agents/MCPMongoDBAgent.ipynb file 
 
-Through your AI agent, integrated with MCP tools, you can: 
+Through your AI agent, integrated with MCP MongoDB tools, by just using natural language, you can: 
 
-- Control you file System
-- Get real-time weather 
-- Get current news 
+- Connect and Access your MongoDB database
+- Perform CRUD operations on the collections
+      -- Create new Records/documents 
+      -- Retrieve/Read/Search documents
+      -- Update documents 
+      -- Delete documents 
+- Perform operations on database and collection for creations and modifications as well
 
 
 ### How to run 
 
-uv run MCPAgent.py .py (for .py file)
+uv run MCPMongoDBAgent.py .py (for .py file)
 
 run all cells in jupyter notebook (for .ipynb file)
 
@@ -24,6 +28,13 @@ run all cells in jupyter notebook (for .ipynb file)
 #Checking for Node and npx (in the terminal): 
 node -v 
 npx -v
+
+MongoDB Installations: https://www.mongodb.com/docs/manual/administration/install-community/?operating-system=macos&macos-installation-method=homebrew
+
+MongoDB CRUD operations syntax: https://www.mongodb.com/docs/manual/crud/?msockid=050612d8208b6ac13bc3054421d26b1d
+MogoDB MCP: 
+
+MCP Documentations: https://www.mongodb.com/docs/mcp-server/get-started/?msockid=050612d8208b6ac13bc3054421d26b1d
 
 Resource Links:
 - [Complete youtube playlist](https://www.youtube.com/playlist?list=PLfpB0rPkNb_8)
