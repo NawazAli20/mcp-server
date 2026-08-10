@@ -11,3 +11,4 @@ Self
 
 # Secret keys 
 .env
+google_client_secret.json
