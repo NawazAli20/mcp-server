@@ -1,9 +1,12 @@
 
-# Create a Langchain Agent with MCP-MongoDB tools for accessing MongoDB database using natural language 
-A Langchainagent has been created in Agents/MCPMongoDBAgent.ipynb file 
+# Create a deep Agent with MCP-Github-MongoDB tools for accessing Github and MongoDB database using natural language 
+A deep agent has been created in Agents/MCPMongoGithubAgent.ipynb file 
 
-Through your AI agent, integrated with MCP MongoDB tools, by just using natural language, you can: 
+Through your AI agent, integrated with MCP Github and MongoDB tools, by just using natural language, you can: 
 
+- Access your github repo
+- Based on your permission settings you can do varies operations including push, pull, commits etc. 
+ 
 - Connect and Access your MongoDB database
 - Perform CRUD operations on the collections
       -- Create new Records/documents 
@@ -15,15 +18,17 @@ Through your AI agent, integrated with MCP MongoDB tools, by just using natural 
 
 ### How to run 
 
-uv run MCPMongoDBAgent.py .py (for .py file)
+uv run MCPMongoGithubAgent.py (for .py file)
 
 run all cells in jupyter notebook (for .ipynb file)
 
 
 # Repo and Dependencies Installations commands 
-
+- uv add deepagents 
 - Instal [nodeJS](https://nodejs.org/en/download) 
 - Issue: uv add langchain-mcp-adapters
+- download github-mcp-server: https://github.com/github/github-mcp-server/releases?utm_source=chatgpt.com
+- [How to generate github personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 
 #Checking for Node and npx (in the terminal): 
 node -v 
@@ -38,6 +43,7 @@ MCP Documentations: https://www.mongodb.com/docs/mcp-server/get-started/?msockid
 
 Resource Links:
 - [Complete youtube playlist](https://www.youtube.com/playlist?list=PLfpB0rPkNb_8)
+- [DeepAgent](https://docs.langchain.com/oss/python/deepagents/quickstart)
 - [MCP:](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro)
 - [Official MCP Registry:](https://registry.modelcontextprotocol.io/)
 - [MCP github:](https://github.com/modelcontextprotocol)
