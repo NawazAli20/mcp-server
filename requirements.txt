@@ -8,3 +8,4 @@ langchain-tavily
 duckduckgo-search
 langchain-youdotcom
 langgraph 
+"mcp[cli]>=1.28,<2"
