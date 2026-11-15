@@ -27,6 +27,8 @@ course-assistant-mcp/
 
 `data/courses.json` is supplied in this GitHub repository. Use the supplied file; there is no separate dataset download. It contains a JSON array of course objects, each with at least `course_id` and `title`. Additional fields are returned by the details tool unchanged.
 
+![MCP Server](MCP%20Server.png)
+
 ## Prerequisites
 
 - Python 3.10 or newer; the setup below uses Python 3.12.
