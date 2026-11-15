@@ -1,5 +1,5 @@
 [Youtube Video of MCP Server creation](https://youtu.be/XwO3tHDVZvI?si=YGorMb7puuSfikOk)
-![MCP Banner](mcp banner.png)
+![MCP Banner](mcp%20banner.png)
 # Course Assistant MCP Server
 
 Build your first custom Model Context Protocol (MCP) server with Python and FastMCP. This YouTube class shows how to expose two Python functions as MCP tools, read a local course catalog, and test the tools in MCP Inspector.
