@@ -1,3 +1,4 @@
+[Youtube Video of MCP Server creation](https://youtu.be/XwO3tHDVZvI?si=YGorMb7puuSfikOk)
 
 # Course Assistant MCP Server
 
