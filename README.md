@@ -124,6 +124,12 @@ From the repository folder, run:
 uv run mcp dev mcpserver.py
 ```
 
+Alternatively: 
+
+```bash
+npx @modelcontextprotocol/inspector@2.15.0 uv run python server.py
+```
+
 The MCP development command launches Inspector using `npx`. Allow the Inspector package installation if prompted, and open the local URL printed in the terminal. Keep that terminal running while testing.
 
 Inspector launches its own server process; you do not need to leave the server from step 4 running.
